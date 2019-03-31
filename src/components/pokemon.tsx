@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 
-class Pokemon extends PureComponent {
+class Pokemon extends PureComponent<any, any> {
   render() {
     const { pokemon } = this.props
 
