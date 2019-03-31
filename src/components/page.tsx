@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Pokemon from '../components/pokemon'
 import Search from '../components/search'
 
-class Page extends Component {
+class Page extends Component<any, any> {
   componentDidMount() {
     this.props.getPokemons()
   }
